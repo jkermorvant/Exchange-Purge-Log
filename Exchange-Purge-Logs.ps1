@@ -1,11 +1,9 @@
 #
 # Script to Purge Log Exchange when backup is an error.
-# Copyright (c) 2016 Jerome Kermorvant
+# 
 # ---------------------------------------------------------------------
 #
-# Exchange Server conserve de nombreux fichiers de logs sous le format « E00000xxxx.log ». 
-# Ces fichiers de 1MB chacun se multiplient rapidement et consomment donc de l’espace disque. 
-# Si les backup d'Exchange sont correctes, il se chargera de purger ces logs pour vous. 
+
 #
 # Le principe du script
 # Ce script écrit en powershell est très simple. Il prend 4 arguments :
