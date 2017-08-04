@@ -3,9 +3,7 @@
 # 
 # ---------------------------------------------------------------------
 #
-
-#
-# Le principe du script
+# Principe du script :
 # Ce script écrit en powershell est très simple. Il prend 4 arguments :
 # – 1er argument : Le chemin où sont stockés les fichiers de logs
 # – 2ème argument : L’extension des fichiers à purger
@@ -14,7 +12,7 @@
 #
 # Paramétrage de la tâche planifiée :
 # Program/script : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-# Argument : -file « E:\Scripts\PurgeExchangeLogs.ps1?
+# Argument : -file "E:\Scripts\PurgeExchangeLogs.ps1"
 
 $Path = "D:\Mailbox\DB\MailboxDatabase01\LogFolder\"
 $Ext = ".log"
